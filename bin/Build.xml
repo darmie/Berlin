@@ -1,0 +1,171 @@
+<xml>
+<set name="HXCPP_API_LEVEL" value="331" />
+<files id="haxe">
+<compilerflag value="-Iinclude"/>
+  <file name="src/haxe/format/JsonPrinter.cpp" >
+   <depend name="include/Date.h"/>
+   <depend name="include/Reflect.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/StringBuf.h"/>
+   <depend name="include/StringTools.h"/>
+   <depend name="include/Type.h"/>
+   <depend name="include/ValueType.h"/>
+   <depend name="include/haxe/IMap.h"/>
+   <depend name="include/haxe/Utf8.h"/>
+   <depend name="include/haxe/ds/StringMap.h"/>
+   <depend name="include/haxe/format/JsonPrinter.h"/>
+  </file>
+  <file name="src/haxe/ds/StringMap.cpp" >
+   <depend name="include/haxe/IMap.h"/>
+   <depend name="include/haxe/ds/StringMap.h"/>
+  </file>
+  <file name="src/haxe/Utf8.cpp" >
+   <depend name="include/haxe/Utf8.h"/>
+  </file>
+  <file name="src/haxe/Log.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/haxe/Log.h"/>
+  </file>
+  <file name="src/haxe/IMap.cpp" >
+   <depend name="include/haxe/IMap.h"/>
+  </file>
+  <file name="src/berlin/lib/Value.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/berlin/lib/AST.h"/>
+   <depend name="include/berlin/lib/Assert.h"/>
+   <depend name="include/berlin/lib/Value.h"/>
+  </file>
+  <file name="src/berlin/lib/Assert.cpp" >
+   <depend name="include/berlin/lib/Assert.h"/>
+  </file>
+  <file name="src/berlin/lib/Util.cpp" >
+   <depend name="include/berlin/lib/RawError.h"/>
+   <depend name="include/berlin/lib/Util.h"/>
+  </file>
+  <file name="src/berlin/lib/RawError.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/berlin/lib/Assert.h"/>
+   <depend name="include/berlin/lib/ParseError.h"/>
+   <depend name="include/berlin/lib/RawError.h"/>
+   <depend name="include/berlin/lib/Util.h"/>
+  </file>
+  <file name="src/berlin/lib/Parser.cpp" >
+   <depend name="include/Reflect.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/berlin/lib/AST.h"/>
+   <depend name="include/berlin/lib/Assert.h"/>
+   <depend name="include/berlin/lib/Continuations.h"/>
+   <depend name="include/berlin/lib/ErrAny.h"/>
+   <depend name="include/berlin/lib/ErrCC.h"/>
+   <depend name="include/berlin/lib/ErrChar.h"/>
+   <depend name="include/berlin/lib/Exp.h"/>
+   <depend name="include/berlin/lib/MachineConfiguration.h"/>
+   <depend name="include/berlin/lib/MachineState.h"/>
+   <depend name="include/berlin/lib/NonTerminal.h"/>
+   <depend name="include/berlin/lib/ParseError.h"/>
+   <depend name="include/berlin/lib/Parser.h"/>
+   <depend name="include/berlin/lib/RawError.h"/>
+   <depend name="include/berlin/lib/Util.h"/>
+   <depend name="include/berlin/lib/Value.h"/>
+  </file>
+  <file name="src/berlin/lib/ParseError.cpp" >
+   <depend name="include/berlin/lib/ParseError.h"/>
+   <depend name="include/haxe/format/JsonPrinter.h"/>
+  </file>
+  <file name="src/berlin/lib/NonTerminal.cpp" >
+   <depend name="include/berlin/lib/Exp.h"/>
+   <depend name="include/berlin/lib/NonTerminal.h"/>
+  </file>
+  <file name="src/berlin/lib/MachineState.cpp" >
+   <depend name="include/berlin/lib/MachineConfiguration.h"/>
+   <depend name="include/berlin/lib/MachineState.h"/>
+  </file>
+  <file name="src/berlin/lib/MachineConfiguration.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/berlin/lib/AST.h"/>
+   <depend name="include/berlin/lib/Assert.h"/>
+   <depend name="include/berlin/lib/Continuations.h"/>
+   <depend name="include/berlin/lib/Exp.h"/>
+   <depend name="include/berlin/lib/MachineConfiguration.h"/>
+   <depend name="include/berlin/lib/Value.h"/>
+  </file>
+  <file name="src/berlin/lib/Exp.cpp" >
+   <depend name="include/berlin/lib/Exp.h"/>
+  </file>
+  <file name="src/berlin/lib/ErrChar.cpp" >
+   <depend name="include/berlin/lib/ErrChar.h"/>
+  </file>
+  <file name="src/berlin/lib/ErrCC.cpp" >
+   <depend name="include/berlin/lib/ErrCC.h"/>
+  </file>
+  <file name="src/berlin/lib/ErrAny.cpp" >
+   <depend name="include/berlin/lib/ErrAny.h"/>
+  </file>
+  <file name="src/berlin/lib/Continuations.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/berlin/lib/AST.h"/>
+   <depend name="include/berlin/lib/Assert.h"/>
+   <depend name="include/berlin/lib/Continuations.h"/>
+   <depend name="include/berlin/lib/Exp.h"/>
+  </file>
+  <file name="src/berlin/lib/AST.cpp" >
+   <depend name="include/berlin/lib/AST.h"/>
+  </file>
+  <file name="src/berlin/Main.cpp" >
+   <depend name="include/berlin/Main.h"/>
+   <depend name="include/berlin/lib/AST.h"/>
+   <depend name="include/berlin/lib/Parser.h"/>
+   <depend name="include/haxe/Log.h"/>
+  </file>
+  <file name="src/Type.cpp" >
+   <depend name="include/Type.h"/>
+   <depend name="include/ValueType.h"/>
+  </file>
+  <file name="src/ValueType.cpp" >
+   <depend name="include/ValueType.h"/>
+  </file>
+  <file name="src/StringTools.cpp" >
+   <depend name="include/StringTools.h"/>
+  </file>
+  <file name="src/StringBuf.cpp" >
+   <depend name="include/StringBuf.h"/>
+  </file>
+  <file name="src/Std.cpp" >
+   <depend name="include/Std.h"/>
+  </file>
+  <file name="src/Reflect.cpp" >
+   <depend name="include/Reflect.h"/>
+  </file>
+  <file name="src/Date.cpp" >
+   <depend name="include/Date.h"/>
+   <depend name="include/Std.h"/>
+  </file>
+  <file name="src/__boot__.cpp" >
+   <depend name="include/ValueType.h"/>
+   <depend name="include/haxe/Log.h"/>
+  </file>
+  <file name="src/__files__.cpp" if='HXCPP_DEBUGGER'>
+  </file>
+   <file name="${HXCPP}/src/hx/NoFiles.cpp" unless="HXCPP_DEBUGGER" />
+  <file name="src/__resources__.cpp" >
+  </file>
+</files>
+<files id="__lib__">
+<compilerflag value="-Iinclude"/>
+  <file name="src/__lib__.cpp" >
+   <depend name="include/berlin/Main.h"/>
+  </file>
+</files>
+<files id="__main__">
+<compilerflag value="-Iinclude"/>
+  <file name="src/__main__.cpp" >
+   <depend name="include/berlin/Main.h"/>
+  </file>
+</files>
+<files id="__resources__">
+</files>
+<files id="__externs__">
+</files>
+<set name="HAXE_OUTPUT" value="Main" />
+<include name="${HXCPP}/build-tool/BuildCommon.xml"/>
+</xml>
